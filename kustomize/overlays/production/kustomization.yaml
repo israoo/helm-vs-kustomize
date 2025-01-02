@@ -2,14 +2,4 @@ resources:
   - ../../base/
 
 patches:
-  - target:
-      kind: Deployment
-      name: nginx
-    patch: |-
-      spec:
-        replicas: 2
-        template:
-          spec:
-            containers:
-              - name: nginx
-                image: nginx:1.21
+  - path: patch.yaml

@@ -13,7 +13,8 @@ kustomize/
 │   └── kustomization.yaml       # Configuración base de Kustomize
 └─ overlays/
     └── production/
-        └── kustomization.yaml   # Overlay para personalización en producción
+        ├── kustomization.yaml   # Overlay para personalización en producción
+        └── patch.yaml           # Cambios específicos para producción
 ```
 
 ---
@@ -54,16 +55,12 @@ Este overlay realiza los siguientes cambios:
 Puedes personalizar los manifiestos base o crear nuevos overlays para distintos entornos. A continuación, un ejemplo del contenido de un overlay:
 
 ```yaml
-resources:
-  - ../../base/
-
-patches:
-  - target:
-      kind: Deployment
-      name: nginx
-    patch: |-
-      spec:
-        replicas: 5
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx
+spec:
+  replicas: 5
 ```
 
 En este ejemplo, el overlay únicamente aumenta el número de réplicas del Deployment a 5. Puedes crear tantos overlays como necesites para personalizar tu despliegue.
