@@ -17,6 +17,7 @@ Este repositorio contiene ejemplos prácticos que demuestran las diferencias ent
 └── kustomize/
     ├── base/                      # Configuración base de Kustomize
     └── overlays/production/       # Personalización específica para producción
+```
 
 ---
 
@@ -24,13 +25,13 @@ Este repositorio contiene ejemplos prácticos que demuestran las diferencias ent
 
 ### 1. Ejemplo de Helm
 
-  - Un chart de Helm que despliega un Deployment de Nginx.
-  - Instrucciones para instalar y personalizar el chart.
+- Un chart de Helm que despliega un Deployment de Nginx.
+- Instrucciones para instalar y personalizar el chart.
 
 ### 2. Ejemplo de Kustomize
 
-  - Configuración base de Kustomize para un Deployment de Nginx.
-  - Personalización específica para producción utilizando overlays.
+- Configuración base de Kustomize para un Deployment de Nginx.
+- Personalización específica para producción utilizando overlays.
 
 ---
 
