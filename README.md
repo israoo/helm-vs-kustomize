@@ -11,12 +11,17 @@ Este repositorio contiene ejemplos prácticos que demuestran las diferencias ent
 ├── helm/
 │   └── my-nginx-chart/
 │       ├── templates/
-│       │   └── deployment.yaml    # Plantilla para el Deployment
-│       ├── values.yaml            # Valores predeterminados para personalización
-│       └── Chart.yaml             # Metadatos del chart
+│       │   └── deployment.yaml     # Plantilla para el Deployment
+│       ├── values.yaml             # Valores predeterminados para personalización
+│       └── Chart.yaml              # Metadatos del chart
 └── kustomize/
-    ├── base/                      # Configuración base de Kustomize
-    └── overlays/production/       # Personalización específica para producción
+    ├── base/
+    │   ├── deployment.yaml         # Manifiesto base para el Deployment
+    │   └── kustomization.yaml      # Configuración de Kustomize
+    └── overlays/
+        └── production/
+            ├── kustomization.yaml  # Configuración específica para producción
+            └── patch.yaml          # Parche para personalizar el Deployment
 ```
 
 ---
