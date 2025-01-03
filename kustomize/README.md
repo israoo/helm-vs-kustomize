@@ -27,7 +27,7 @@ Asegúrate de tener kubectl instalado en tu máquina. Desde la versión 1.14 de 
 
 ### 2. Aplicar la configuración base
 
-La configuración base de Kustomize contiene un manifiesto simple para desplegar un Pod de NGINX con una sola réplica. Para aplicar esta configuración, ejecuta el siguiente comando desde el directorio base/:
+La configuración base de Kustomize contiene un manifiesto simple para crear un deployment de NGINX con una sola réplica. Para aplicar esta configuración, ejecuta el siguiente comando desde el directorio base/:
 
 ```bash
 kubectl apply -k base/
