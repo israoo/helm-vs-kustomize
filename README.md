@@ -15,8 +15,8 @@ Este repositorio contiene ejemplos prácticos que demuestran las diferencias ent
 │       ├── values.yaml            # Valores predeterminados para personalización
 │       └── Chart.yaml             # Metadatos del chart
 └── kustomize/
-    ├── base/                  # Configuración base de Kustomize
-    └── overlays/production/   # Personalización específica para producción
+    ├── base/                      # Configuración base de Kustomize
+    └── overlays/production/       # Personalización específica para producción
 
 ---
 
