@@ -22,7 +22,7 @@ my-nginx-chart/
 
 Asegúrate de tener Helm instalado en tu máquina. Puedes seguir las instrucciones en la [documentación oficial](https://helm.sh/docs/intro/install/).
 
-### 2. Inspccionar los manifiestos
+### 2. Inspeccionar los manifiestos
 
 Puedes inspeccionar los manifiestos generados por el chart antes de aplicarlos en el clúster. Para ello, puedes usar el siguiente comando:
 

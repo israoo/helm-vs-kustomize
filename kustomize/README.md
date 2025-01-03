@@ -35,7 +35,15 @@ kubectl apply -k base/
 
 Este comando aplicará los recursos definidos en el manifiesto deployment.yaml dentro del directorio base/.
 
-### 3. Aplicar una personalización (Overlay)
+### 3. Inspeccionar los manifiestos
+
+Puedes inspeccionar los manifiestos generados por Kustomize al aplicar los overlays. Para ello, puedes usar el siguiente comando:
+
+```bash
+kubectl kustomize overlays/production/
+```
+
+### 4. Aplicar una personalización (Overlay)
 
 Si necesitas personalizar el despliegue para un entorno específico, como producción, puedes usar los overlays. Para aplicar la personalización definida en el directorio overlays/production/, usa el siguiente comando:
 
