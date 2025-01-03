@@ -19,7 +19,7 @@ kustomize/
 
 ---
 
-## Cómo usar esta configuración
+## ¿Cómo usar esta configuración?
 
 ### 1. Instalar kubectl con soporte para Kustomize
 

@@ -16,7 +16,7 @@ my-nginx-chart/
 
 ---
 
-## Cómo usar este chart
+## ¿Cómo usar este chart?
 
 ### 1. Instalar Helm
 
