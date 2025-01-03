@@ -1,10 +1,10 @@
-# 🎨 Kustomize: Despliegue de NGINX en Kubernetes
+# Kustomize: Despliegue de NGINX en Kubernetes
 
 Este directorio contiene una configuración de **Kustomize** para desplegar un Pod de NGINX en Kubernetes. Está diseñado para ser simple y demostrar cómo usar Kustomize para personalizar manifiestos YAML.
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```plaintext
 kustomize/
@@ -19,7 +19,7 @@ kustomize/
 
 ---
 
-## 🚀 Cómo usar esta configuración
+## Cómo usar esta configuración
 
 ### 1. Instalar kubectl con soporte para Kustomize
 
@@ -58,7 +58,7 @@ Este overlay realiza los siguientes cambios:
 
 ---
 
-## ⚙️ Personalización
+## Personalización
 
 Puedes personalizar los manifiestos base o crear nuevos overlays para distintos entornos. A continuación, un ejemplo del contenido de un overlay:
 
@@ -75,7 +75,7 @@ En este ejemplo, el overlay únicamente aumenta el número de réplicas del Depl
 
 ---
 
-## 🧹 Eliminar los recursos
+## Eliminar los recursos
 
 Para eliminar los recursos aplicados con Kustomize, usa el mismo comando que utilizaste para aplicarlos, pero con la opción delete:
 

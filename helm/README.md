@@ -1,10 +1,10 @@
-# 📦 Helm: Despliegue de NGINX en Kubernetes
+# Helm: Despliegue de NGINX en Kubernetes
 
 Este directorio contiene un **chart de Helm** que despliega un Pod de NGINX en Kubernetes. El chart está diseñado para ser simple y demostrar cómo funciona Helm para empaquetar y gestionar configuraciones en Kubernetes.
 
 ---
 
-## 📂 Estructura del chart
+## Estructura del chart
 
 ```plaintext
 my-nginx-chart/
@@ -16,7 +16,7 @@ my-nginx-chart/
 
 ---
 
-## 🚀 Cómo usar este chart
+## Cómo usar este chart
 
 ### 1. Instalar Helm
 
@@ -54,7 +54,7 @@ kubectl get pods
 
 ---
 
-## ⚙️ Personalización
+## Personalización
 
 Puedes personalizar la instalación del chart modificando los valores en el archivo `values.yaml`. Por ejemplo:
 
@@ -73,7 +73,7 @@ helm upgrade my-nginx . -f values.yaml
 
 ---
 
-## 🧹 Desinstalación
+## Desinstalación
 
 Para desinstalar el chart, puedes usar el comando `helm uninstall`:
 
