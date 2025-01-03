@@ -1,6 +1,6 @@
 # Kustomize: Despliegue de NGINX en Kubernetes
 
-Este directorio contiene una configuración de **Kustomize** para desplegar un Pod de NGINX en Kubernetes. Está diseñado para ser simple y demostrar cómo usar Kustomize para personalizar manifiestos YAML.
+Este directorio contiene una configuración de **Kustomize** que crea un deployment de NGINX en Kubernetes. Está diseñado para ser simple y demostrar cómo usar Kustomize para personalizar manifiestos YAML.
 
 ---
 

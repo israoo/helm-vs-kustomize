@@ -1,6 +1,6 @@
 # Helm: Despliegue de NGINX en Kubernetes
 
-Este directorio contiene un **chart de Helm** que despliega un Pod de NGINX en Kubernetes. El chart está diseñado para ser simple y demostrar cómo funciona Helm para empaquetar y gestionar configuraciones en Kubernetes.
+Este directorio contiene un **chart de Helm** que crea un deployment de NGINX en Kubernetes. El chart está diseñado para ser simple y demostrar cómo funciona Helm para empaquetar y gestionar configuraciones en Kubernetes.
 
 ---
 
